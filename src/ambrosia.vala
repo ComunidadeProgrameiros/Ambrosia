@@ -1,6 +1,6 @@
 public class Ambrosia : Gtk.Application {
 	public Ambrosia () {
-		Object (application_id: "Ambrosia",
+		Object (application_id: "Ambrosia.app",
 		flags: ApplicationFlags.FLAGS_NONE);
 	}
 
