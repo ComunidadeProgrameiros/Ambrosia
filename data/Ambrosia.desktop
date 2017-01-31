@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Ambrosia
+GenericName=Ambrosia bootable usb creator
+Comment=Ambrosia makes bootable usb drivers from linux images.
+Categories=Utility;Settings;
+Exec=ambrosia
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=ambrosia
+Keywords=bootable;usb;
