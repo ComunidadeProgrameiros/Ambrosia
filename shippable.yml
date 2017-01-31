@@ -6,7 +6,7 @@ build:
  ci:
   - sudo add-apt-repository ppa:vala-team
   - sudo apt-get update
-  - sudo apt-get install cmake* valac -y
+  - sudo apt-get install cmake cmake-data valac -y
   - which valac
   - valac --version
   - mkdir build && cd build
