@@ -7,7 +7,7 @@ build:
   - sudo add-apt-repository ppa:vala-team
   - sudo add-apt-repository ppa:george-edison55/cmake-3.x
   - sudo apt-get update
-  - sudo apt-get install cmake cmake-data valac libglib2.0-dev pkg-config -y
+  - sudo apt-get install cmake cmake-data valac libglib2.0-dev pkg-config libgtk-3-dev -y
   - which valac
   - valac --version
   - mkdir build && cd build
