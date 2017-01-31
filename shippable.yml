@@ -5,6 +5,7 @@ compiler:
 build:
  ci:
   - sudo add-apt-repository ppa:vala-team
+  - sudo add-apt-repository ppa:george-edison55/cmake-3.x
   - sudo apt-get update
   - sudo apt-get install cmake cmake-data valac -y
   - which valac
