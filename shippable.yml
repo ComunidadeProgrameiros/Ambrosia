@@ -6,7 +6,7 @@ build:
  ci:
   - sudo add-apt-repository ppa:vala-team
   - sudo apt-get update
-  - sudo apt-get install valac vala-doc -y
+  - sudo apt-get install valac -y
   - mkdir build && cd build
   - cmake ..
   - make
