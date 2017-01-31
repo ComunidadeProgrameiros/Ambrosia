@@ -7,7 +7,7 @@ cmake_minimum_required (VERSION 2.6)
 # tell cmake where its modules can be found in our project directory
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/src)
-list (APPEND CMAKE_MODULE_PATH data/cmake)
+list (APPEND CMAKE_MODULE_PATH ./data/cmake)
 
 # where we install data directory (if we have any)
 set (DATADIR "${CMAKE_INSTALL_PREFIX}/share")
