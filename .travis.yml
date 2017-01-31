@@ -1,6 +1,6 @@
 os: linux
 language: c
-sudo:false
+sudo: false
 compiler: gcc
 addons:
   apt:
