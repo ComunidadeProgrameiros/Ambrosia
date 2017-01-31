@@ -1,4 +1,5 @@
 # Ambrosia - (WIP) THIS IS A WORK IN VERY EARLY BEGINNING
+[![Build Status](https://travis-ci.org/naaando/Ambrosia.svg?branch=master)](https://travis-ci.org/naaando/Ambrosia)
 
 A bootable pendriver maker for elementary os, brough for you by [Programeiros](https://github.com/OrgGrupoProgrameiros).
 
