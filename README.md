@@ -1,4 +1,4 @@
-# Ambrosia - (WIP) THIS IS A WORK IN VERY EARLY BEGINING
+# Ambrosia - (WIP) THIS IS A WORK IN VERY EARLY BEGINNING
 
 A bootable pendriver maker for elementary os, brough for you by [Programeiros](https://github.com/OrgGrupoProgrameiros).
 
