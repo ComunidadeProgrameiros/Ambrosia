@@ -23,7 +23,7 @@ set (VERSION_INFO "A brave new world")
 find_package(PkgConfig)
 
 # now let's actually check for the required dependencies
-pkg_check_modules(DEPS REQUIRED gtk+-3.0)
+pkg_check_modules(DEPS REQUIRED gtk+-3.0 granite)
 
 add_definitions(${DEPS_CFLAGS})
 link_libraries(${DEPS_LIBRARIES})
@@ -39,11 +39,13 @@ ensure_vala_version("0.16" MINIMUM)
 # files we want to compile
 include(ValaPrecompile)
 vala_precompile(VALA_C ${EXEC_NAME}
+# PLEASE KEEP ALPHABETICAL ORDER
 src/ambrosia.vala
+src/view/WelcomeScreen.vala
 
 # tell what libraries to use when compiling
 PACKAGES
-     gtk+-3.0
+		gtk+-3.0 granite
 )
 
 # tell cmake what to call the executable we just made
