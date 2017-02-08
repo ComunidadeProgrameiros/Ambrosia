@@ -5,6 +5,16 @@ A bootable pendriver maker for elementary os, brough for you by [Programeiros](h
 
 Ambrosia can create a bootable USB drive for Linux distribuitions.
 
+## Dependencies for build
+
+	Gtk3 dev
+	Granite dev
+
+	On elementary OS
+	sudo apt install libgtk-3-dev libgranite-dev
+
+*If you succed to build on another OS please tell us your build steps so we can provide it community wide.*
+
 ## Build steps
 
 	mkdir build && cd build

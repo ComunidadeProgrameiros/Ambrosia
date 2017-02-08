@@ -1,17 +1,28 @@
-public class Ambrosia : Gtk.Application {
-	public Ambrosia () {
-		Object (application_id: "Ambrosia.app",
-		flags: ApplicationFlags.FLAGS_NONE);
-	}
 
-	protected override void activate () {
-		var app_window = new Gtk.ApplicationWindow (this);
+namespace Ambrosia {
 
-		app_window.show ();
-	}
+	public class Ambrosia : Gtk.Application {
+		construct {}
 
-	public static int main (string[] args) {
-		var app = new Ambrosia ();
-		return app.run (args);
+		protected override void activate () {
+			var app_window = new Gtk.ApplicationWindow (this);
+
+			app_window.title = "Ambrosia";
+			app_window.set_position (Gtk.WindowPosition.CENTER);
+			app_window.set_default_size (880, 500);
+			app_window.destroy.connect (Gtk.main_quit);
+
+			// Ambrosia screens
+			// Will be replaced by Gtk.StackSwitcher
+			var m_welcome_screen = new Welcome_screen();
+
+			app_window.add (m_welcome_screen);
+			app_window.show_all ();
+		}
+
+		public static int main (string[] args) {
+			var app = new Ambrosia ();
+			return app.run (args);
+		}
 	}
 }
