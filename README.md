@@ -42,4 +42,4 @@ Ambrosia can create a bootable USB drive for Linux distribuitions.
 
 
 #Contributors
-[![Andreas Scherer](https://avatars.githubusercontent.com/u/930604?s=130)](https://github.com/harunokenobi)
+[![Haruno Kenobi](https://avatars.githubusercontent.com/u/5933675?s=130)](https://github.com/harunokenobi)
