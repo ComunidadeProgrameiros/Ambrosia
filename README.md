@@ -39,3 +39,7 @@ Ambrosia can create a bootable USB drive for Linux distribuitions.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+
+#Contributors
+[![Andreas Scherer](https://avatars.githubusercontent.com/u/930604?s=130)](https://github.com/harunokenobi)
