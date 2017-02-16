@@ -41,7 +41,7 @@ Ambrosia can create a bootable USB drive for Linux distribuitions.
 5. Create a new Pull Request
 
 
-#Contributors
+## Contributors
 [![Haruno Kenobi](https://avatars.githubusercontent.com/u/5933675?s=130)](https://github.com/harunokenobi) | [![Fernando da Silva Sousa ](https://avatars2.githubusercontent.com/u/12532760?v=3&s=130)](https://github.com/naaando)
 ---|---|---|---
 [Haruno Kenobi](https://github.com/harunokenobi) | [Fernando da Silva](https://github.com/naaando)
