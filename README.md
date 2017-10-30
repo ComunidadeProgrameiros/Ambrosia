@@ -1,7 +1,7 @@
 # Ambrosia - (WIP) THIS IS A WORK IN VERY EARLY BEGINNING
 [![Run Status](https://api.shippable.com/projects/589015ff4d65591000498f63/badge?branch=master)](https://app.shippable.com/projects/589015ff4d65591000498f63)
 
-A bootable pendriver maker for elementary os, brough for you by [Programeiros](https://github.com/OrgGrupoProgrameiros).
+A bootable flashdrive maker for elementary os, brough for you by [Programeiros](https://github.com/OrgGrupoProgrameiros).
 
 Ambrosia can create a bootable USB drive for Linux distribuitions.
 
